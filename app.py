@@ -4,7 +4,7 @@ import numpy as np
 
 # --- CONFIG DASHBOARD ---
 # Mengatur judul tab browser dan icon
-st.set_page_config(page_title="Komoku - SMS Spam Detection", page_icon="🛡️")
+st.set_page_config(page_title="Teks Spam Detection", page_icon="🛡️")
 
 # --- LOAD MODEL & VECTORIZER ---
 # Menggunakan cache_resource agar model hanya dimuat satu kali saat aplikasi dijalankan
