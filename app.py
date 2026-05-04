@@ -24,12 +24,12 @@ except Exception as e:
     is_model_ready = False
 
 # --- UI STREAMLIT ---
-st.title("🛡️ Komoku: Spam & Phishing Detector")
-st.write("Sistem klasifikasi SMS untuk mendeteksi pesan berbahaya menggunakan Multinomial Naive Bayes.")
+st.title("🛡️ Spam & Phishing Detector")
+st.write("Sistem Klasifikasi Teks Pesan Spam Menggunakan Algoritma Multinomial Naïve Bayes Bahasa Indonesia")
 
 # Area Input Teks
 user_input = st.text_area(
-    "Masukkan pesan SMS yang ingin diperiksa:", 
+    "Masukkan pesan yang ingin diperiksa:", 
     placeholder="Contoh: Selamat! Anda menang hadiah 100jt, klik link ini bit.ly/hadiah-palsu",
     height=150
 )
@@ -65,4 +65,4 @@ if st.button("Periksa Pesan"):
 
 # --- FOOTER ---
 st.markdown("---")
-st.caption("Dikembangkan untuk Proyek Tugas Akhir Informatika - Universitas Mercu Buana Yogyakarta")
+st.caption("Dikembangkan untuk Proyek Tugas Akhir Informatika - Universitas MercuBuana Yogyakarta")
